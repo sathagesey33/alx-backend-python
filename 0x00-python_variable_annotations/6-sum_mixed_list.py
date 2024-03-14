@@ -11,7 +11,7 @@ def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     Sums a mixed list of integers and floats.
 
     Args:
-        mxd_lst (List[Union[int, float]]): 
+        mxd_lst (List[Union[int, float]]):
         The input mixed list of integers and floats.
 
     Returns:
@@ -26,4 +26,3 @@ if __name__ == "__main__":
     print(ans == sum(mixed))
     print("sum_mixed_list(mixed) returns {} which is a {}".format(
         ans, type(ans)))
-    
