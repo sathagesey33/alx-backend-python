@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+module with type checking
+"""
 
 from typing import Tuple, List
 
