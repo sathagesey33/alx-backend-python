@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""write an async routine """
+""" write an async routine called wait_n """
 import asyncio
 from typing import List
-from random import uniform
+from random import uniform, seed
 from time import perf_counter
+
+seed(1)  # Set a seed for the random module for reproducible results
 
 
 async def wait_random(max_delay: int) -> float:
